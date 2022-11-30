@@ -69,7 +69,7 @@ else:
 
 
 stud = []                                  #Create list of documents
-for line in open('students.json', 'r'):
+for line in open('https://github.com/sachincmanjrekar/MongoDB/blob/main/students.json', 'r'):
     stud.append(json.loads(line))
 stud
 
